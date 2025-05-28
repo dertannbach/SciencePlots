@@ -3,17 +3,17 @@ import numpy as np
 
 # 多列堆叠柱状图
 tick_label = ["A", "B", "C", "D"]
-y = [67, 94, 46, 17]   # left, train
-y1 = [48, 67, 37, 13]  # right, train
-y2 = [33, 6, 2, 8]     # bilateral, train
+y = [67, 94, 46, 17]   
+y1 = [48, 67, 37, 13]  
+y2 = [33, 6, 2, 8]     
 
-y3 = [16, 23, 11, 4]   # left, validation
-y4 = [10, 16, 9, 3]  # right, validation
-y5 = [10, 2, 1, 2]     # bilateral, validation
+y3 = [16, 23, 11, 4]   
+y4 = [10, 16, 9, 3]  
+y5 = [10, 2, 1, 2]     
 
-y6 = [8, 11, 10, 1]   # left, test
-y7 = [11, 10, 6, 7]  # right, test
-y8 = [13, 0, 5, 3]     # bilateral, test
+y6 = [8, 11, 10, 1]   
+y7 = [11, 10, 6, 7]  
+y8 = [13, 0, 5, 3]     
 
 x = np.arange(4)
 bar_width = 0.3  # 条形宽度
